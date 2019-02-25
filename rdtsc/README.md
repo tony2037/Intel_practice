@@ -1,5 +1,13 @@
 RDTSC
 ---
+usage:
+---
+* Compile
+	* `make demo`
+	* `./demo`
+* Clean
+`make clean`
+
 [https://c9x.me/x86/html/file_module_x86_id_278.html](https://c9x.me/x86/html/file_module_x86_id_278.html)
 :::info
 Loads the current value of the processor's time-stamp counter into the EDX:EAX registers. The time-stamp counter is contained in a 64-bit MSR. The high-order 32 bits of the MSR are loaded into the EDX register, and the low-order 32 bits are loaded into the EAX register.
