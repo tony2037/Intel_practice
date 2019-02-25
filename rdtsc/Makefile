@@ -11,4 +11,4 @@ demo: rdtsc.o demo.o
 
 .PHONY: clean
 clean:
-	rm *.o
+	rm *.o demo
